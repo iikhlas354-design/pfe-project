@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+
+# environment variables (VERY IMPORTANT)
+.env
+.env.*
+!.env.example
+
+# prisma
+/generated/prisma
+
+# logs
+logs
+*.log
+npm-debug.log*
+
+# build
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
